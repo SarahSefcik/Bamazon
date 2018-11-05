@@ -1,0 +1,18 @@
+DROP DATABASE IF EXISTS bamazon_DB;
+
+CREATE DATABASE bamazon_DB;
+
+USE bamazon_DB;
+
+CREATE TABLE products (
+  id INT NOT NULL AUTO_INCREMENT,
+  product_name VARCHAR(100) CHARACTER SET binary NULL,
+  department_name VARCHAR(100) CHARACTER SET binary NULL,
+  price DECIMAL(10,2) UNSIGNED NULL,
+  stock INT(10) UNSIGNED NULL,
+  PRIMARY KEY (id)
+);
+
+
+
+
