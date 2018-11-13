@@ -12,22 +12,22 @@
 4. Populate this database with around 10 different products.(i.e. "mock" data)
 
 5. Then create a Node application called `bamazonCustomer.js`. Run the application to first display all of the items available for sale. Include the ids, names, and prices of products for sale.
-![Node App- bamazonCustomer.js](https://cl.ly/2a16e2e34cff)
-![Display data in table](https://cl.ly/fa150ad3c883)
+![Node App- bamazonCustomer.js](images/1.png)
+![Display data in table](images/2.png)
 
 6. Next, prompt users with two messages.
    a. The first should ask them the ID of the product they would like to buy.
-   ![Asking for ID of product to purchase](https://cl.ly/9d114fa1a6ea)
    b. The second message should ask how many units of the product they would like to buy.
-   ![Asking for ID of product to purchase](https://cl.ly/a1f7572fbc52)
+![Asking for ID of product to purchase](images/6.png)
+![Asking for units to purchase](images/3.png)
 
 7. Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.
-![Asking for ID of product to purchase](https://cl.ly/9db8f372981b)
+![Look for phrasing](images/4.png)
 
    * If not, the app should log a phrase and prevent the order from going through.
-![Asking for ID of product to purchase](https://cl.ly/d965c51ca039)
+![Look for phrasing](images/5.png)
 
 8. However, if your store _does_ have enough of the product, you should fulfill the customer's order.
    * This means updating the SQL database to reflect the remaining quantity.
    * Once the update goes through, show the customer the total cost of their purchase.
-![Asking for ID of product to purchase](https://cl.ly/9db8f372981b)
+![Check for updated cost](images/4.png)
