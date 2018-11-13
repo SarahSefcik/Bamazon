@@ -67,11 +67,11 @@ function buy() {
               ],
               function (error) {
                 if (error) throw error;
-                console.log("Your purchase has been made for " + (answer.amount) + " of the"(productSelected.product_name) + "(s) at a total of " + (productSelected.price * answer.amount) + ". Thank you for shopping Bamazon Prime!\n");
+                console.log("Your purchase has been made for " + (answer.amount) + " of the " + (productSelected.product_name) + "(s) at a total of " + (productSelected.price * answer.amount) + ". Thank you for shopping Bamazon Prime!\n");
                 play();
               });
           } else {
-            console.log("Unfortunately, we only have " + productSelected.stock + " of the"(productSelected.product_name) + ("(s) at this time. Please purchase less at this time, our shipment is to arrive in 3 days and we will have more ready for you at that time.\n"))
+            console.log("Unfortunately, we only have " + productSelected.stock + " of the " + (productSelected.product_name) + "(s) at this time. Please purchase less at this time, our shipment is to arrive in 3 days and we will have more ready for you at that time.\n")
             play();
           }
         })
